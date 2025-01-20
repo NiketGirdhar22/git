@@ -2,6 +2,7 @@
 
 - A version control system enables user to track changes to the source code, logs all the changes and makes it easier to recover older versions of the files if mistakes are made.
 - It also makes the collaboration with team really easy and smooth
+
 ---
 
 # What is git?
@@ -9,6 +10,7 @@
 - Git is a free and open source software which uses Distributed Version Control System [DVCS in short] which means users present in any part of the world can easily access a copy of their projects on their computers.
 - Any changes can be synced with a remote server and then accessed.
 - Git isn't the only version control system but due to the DVCS aspect it is more widely used.
+
 ---
 
 # What git offers
@@ -17,11 +19,13 @@
 - **Branching:** Use of feature branching to make multiple copeis of codes to make and test various changes to the code.
 
 Note: There are the very basic features git offers, apart from these there are various others facilities and features offered by git.
+
 ---
 
 # What is Github?
 
 Github is a web service that provides easy to use git functionality. It is the most widely used website for git but other alternatives available include: Git Lab, Bitbucket etc.
+
 ---
 
 # Terms associated with Git and Github
@@ -38,4 +42,4 @@ Github is a web service that provides easy to use git functionality. It is the m
 
 - **Commit:** Commit is a snapshot or an instant in the source code in a specific point of time along with a description when changes are made in the repo.
 
-- **Branch:** # git
+- **Branch:** 
