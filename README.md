@@ -5,6 +5,27 @@
 
 ---
 
+# Types of Version Control?
+
+There are two major types of Version Control Systems:
+- CVCS [Centralised Version Control System]
+- DVCS [Distributed Version Control System]
+
+| **Feature** | **CVCS** | **DVCS** |
+| ----- | ----- | ----- |
+| **Repository** | Single central repository | Every user has a local repository |
+| **Examples** | SVN, CVS, Perforce | Git, Mercurial, Bazaar |
+| **Offline Access** | Limited [Requires connection to the central server] | Full access [works offline and can sync when you are back online] |
+| **Commit Process** | Changes are committed directly to the central server | Changes are committed locally first, then pushed to the remote |
+| **Branching and Merging** | Limited and more complex | Flexible, efficient, and easier to manage |
+| **Performance** | Slower for large projects due to frequent server access | Faster for local operations, as all data is local |
+| **Fault Tolerance** | Single point of failure [central server] | More robust [any local copy can act as a backup] |
+| **Collaboration** | Requires users to commit directly to the central server | More flexible as users can work independently and sync later |
+| **Complexity** | Simpler to use and manage | More complex due to local repositories and syncing |
+| **Use Case** | Small to medium teams, smaller projects | Large teams, open-source projects, distributed development |
+
+---
+
 # What is git?
 
 - Git is a free and open source software which uses Distributed Version Control System [DVCS in short] which means users present in any part of the world can easily access a copy of their projects on their computers.
@@ -42,4 +63,11 @@ Github is a web service that provides easy to use git functionality. It is the m
 
 - **Commit:** Commit is a snapshot or an instant in the source code in a specific point of time along with a description when changes are made in the repo.
 
-- **Branch:** 
+- **Branch:** Branch is a separate line of development that allows users to work and test new features and also fixes without affecting the source code.
+
+- **Merge:** Merging combines changes from one branch to another. It is typically used to merge a feature/fix branch into the main branch.
+
+- **Clone Repo:** Cloning a repo creates a copy of a remote git repo into the local system.
+
+---
+
