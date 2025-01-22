@@ -81,3 +81,33 @@ Github is a web service that provides easy to use git functionality. It is the m
 
 ---
 
+# Git Branches
+
+- All files in github are stored on branches.
+- Main branch: Stores deployable code.
+- Main branch created by default. [user can make any branch as main, finished deployable version]
+- ![The image describes the function of branches and how they are created and managed] (images/branches.webp)
+    - As changes are made, the new branches holds the changes.
+- ![The image describes how the branches are merged into a single branch] (images/merge_branch.png)
+    - When two branches are ready to merge, each branch's code is identified as a tip.
+    - Two tips are merged into a third, combined branch.
+
+---
+
+# Git Commits
+
+- Saved changes are called commits.
+- This indicates that the developer is sure the code represents a stable platform for the feature or set of features under development.
+- While commiting, developer should use a meaningfull comment for that commit to later refer if needed.
+- Commit can be done in the main branch directly or can create a new branch.
+
+---
+
+# Git pull
+
+- Used to initiate the merging of branches in a way to review changes
+- Git pull makes the commit changes available for others to review and use.
+- Pull always requires user to approve the changes [author of the change]
+- Log files record the approval of the merge.
+
+Note: Github automatically makes a pull request on your behalf if you make changes on a branch that you don't own.
