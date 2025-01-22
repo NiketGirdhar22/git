@@ -71,3 +71,13 @@ Github is a web service that provides easy to use git functionality. It is the m
 
 ---
 
+# Why is Git Repository Model special?
+
+- Based on DVCS
+- Primary focus to track source code development
+- Easy coordination among programmers
+    - Track changes
+    - Non linear workflow support
+
+---
+
