@@ -111,3 +111,16 @@ Github is a web service that provides easy to use git functionality. It is the m
 - Log files record the approval of the merge.
 
 Note: Github automatically makes a pull request on your behalf if you make changes on a branch that you don't own.
+
+---
+
+# Git workflow
+
+- 1. ***Clone repo from github:*** Creates a copy of repo on local system including code and version history
+- 2. ***Create branch:*** Work on the new created branch to test any features or edits os the sorurce code is not affected
+- 3. ***Staging area:*** Select the changed files and move them to a staging area. These files are then pushed into the local repo
+- 4. ***Commit:*** Commiting the files allows git to record the changes and ensures that the added features become a part of the branch
+- 5. ***Push:*** Push the commited changes into the remote repository so as others can access the feature and evaluate it
+- 6. ***Review code:*** Added feature/code has to be reviewed by the repo managing user
+- 7. ***Pull request:*** To ask for review the user has to make a pull request
+- 8. ***Merge branch:*** After review, the maintainer of repo merges the branches
