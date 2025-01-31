@@ -12,39 +12,38 @@ These Command Line Interface [CLI] commands are used for various purposes instea
 
 - Initializing a git repository
 ```
-git init
+git init # creates a new repo and sets up all the necessary files and data structures for projects version control
 ```
-***This command reates a new repo and sets up all the necessary files and data structures for projects version control.***
 
 - Adding files to staging area
 ```
-git add <filename>
+git add <filename> # takes file/changes from working directory to staging area
+git add . # takes all the files from working directory to staging area
+git add -A # takes all the files from working directory to staging area
 ```
-***This takes files/changes from working directory to staging are before commiting them. You can pass multiple files or use "." to select all files.***
 
 - Commit the changes
 ```
-git commit -m "commit message"
+git commit -m "commit message" # takes a snapshot of the changes in the staging area and stores with a descriptive message
 ```
-***This command takes a snapshot of the changes in the staging area and stores with a descriptive message.***
 
 - View previous changes
 ```
-git log
+git log # used to view all the previous commits recoreded along with their commit message
 ```
-***This command is used to view all the previous commits recoreded along with their commit message.***
 
 - Branching the repo
 ```
-git branch <branch_name>
+git branch # lists all the current branches in the repo
+git branch <branch_name> # creates a new branch with the branch_name and can be used to experiment with the code
+git branch -d <branch_name> # deletes branch_name
 ```
-***This command creates a new branch with the branch_name and can be used to experiment with the code.***
 
 - switching between branches
 ```
-git checkout <branch_name> / git switch <branch_name>
+git chechout main / git switch main # switches to the main branch of the repo
+git checkout <branch_name> / git switch <branch_name> # switches to another branch in the repo
 ```
-***This command is used to switch to another branch in the repo.***
 
 - Getting informantion about the branch
 ```
@@ -62,8 +61,6 @@ git status
 ```
 git checkout main/master
 git merge <branch_name>
-
-//This first switches to the main/master branch and then merges the branch_name branch in the main/master branch
 ```
-
+***This first switches to the main/master branch and then merges the branch_name branch in the main/master branch***
 [Note: It is a good practice to first use git pull command before using the merge command to avoid any conflicts when working with other collaborators]
