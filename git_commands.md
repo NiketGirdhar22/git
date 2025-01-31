@@ -62,6 +62,8 @@ git status
 ```
 git checkout main/master
 git merge <branch_name>
+
+//This first switches to the main/master branch and then merges the branch_name branch in the main/master branch
 ```
-***This first switches to the main/master branch and then merges the branch_name branch in the main/master branch***
+
 [Note: It is a good practice to first use git pull command before using the merge command to avoid any conflicts when working with other collaborators]
