@@ -5,7 +5,7 @@
 
 ---
 
-# Types of Version Control?
+## Types of Version Control?
 
 There are two major types of Version Control Systems:
 - CVCS [Centralised Version Control System]
@@ -26,7 +26,7 @@ There are two major types of Version Control Systems:
 
 ---
 
-# What is git?
+## What is git?
 
 - Git is a free and open source software which uses Distributed Version Control System [DVCS in short] which means users present in any part of the world can easily access a copy of their projects on their computers.
 - Any changes can be synced with a remote server and then accessed.
@@ -34,7 +34,7 @@ There are two major types of Version Control Systems:
 
 ---
 
-# What git offers
+## What git offers
 
 - **Remote access:** You can easily access your code anywhere and make changes remotely to your code and log the changes too.
 - **Branching:** Use of feature branching to make multiple copeis of codes to make and test various changes to the code.
@@ -43,13 +43,13 @@ Note: There are the very basic features git offers, apart from these there are v
 
 ---
 
-# What is Github?
+## What is Github?
 
 Github is a web service that provides easy to use git functionality. It is the most widely used website for git but other alternatives available include: Git Lab, Bitbucket etc.
 
 ---
 
-# Terms associated with Git and Github
+## Terms associated with Git and Github
 
 - **SSH:** Secure SHell protocol or SSH protocol is a method to remotely login from one computer to another.
 
@@ -71,7 +71,7 @@ Github is a web service that provides easy to use git functionality. It is the m
 
 ---
 
-# Why is Git Repository Model special?
+## Why is Git Repository Model special?
 
 - Based on DVCS
 - Primary focus to track source code development
@@ -81,7 +81,7 @@ Github is a web service that provides easy to use git functionality. It is the m
 
 ---
 
-# Git Branches
+## Git Branches
 
 - All files in github are stored on branches.
 - Main branch: Stores deployable code.
@@ -94,7 +94,7 @@ Github is a web service that provides easy to use git functionality. It is the m
 
 ---
 
-# Git Commits
+## Git Commits
 
 - Saved changes are called commits.
 - This indicates that the developer is sure the code represents a stable platform for the feature or set of features under development.
@@ -103,7 +103,7 @@ Github is a web service that provides easy to use git functionality. It is the m
 
 ---
 
-# Git pull
+## Git pull
 
 - Used to initiate the merging of branches in a way to review changes
 - Git pull makes the commit changes available for others to review and use.
@@ -114,7 +114,7 @@ Note: Github automatically makes a pull request on your behalf if you make chang
 
 ---
 
-# Git workflow
+## Git workflow
 
 - 1. ***Clone repo from github:*** Creates a copy of repo on local system including code and version history
 - 2. ***Create branch:*** Work on the new created branch to test any features or edits os the sorurce code is not affected

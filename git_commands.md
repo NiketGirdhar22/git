@@ -154,5 +154,3 @@ git instaweb --httpd=webrick  # Instantly launches a web server to browse reposi
 ```sh
 git rerere  # Reuses recorded resolutions of previously resolved merge conflicts.
 ```
-
----

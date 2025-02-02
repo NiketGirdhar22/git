@@ -13,3 +13,4 @@ This repo contains the concepts about Version Control and Git to help readers ge
 
 - [Basics of Version Control and Git](Fundamentals.md)
 - [Git Commands](git_commands.md)
+- [Cloning vs Forking](cloning_vs_forking.md)
