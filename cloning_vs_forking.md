@@ -7,6 +7,7 @@ Cloning refers to creating a copy of a repository from a remote server (like Git
 - It copies the repository to your local system.
 - You can make changes and push them to the original repository if you have write access.
 - It's typically used to contribute directly to the project.
+![The image describes the workflow of clonning a repo](images/cloneworkflow.png)
 
 ## What is Forking?
 Forking is the process of creating a personal copy of someone else’s repository on GitHub. Unlike cloning, which copies the repository to your local machine, forking copies it to your GitHub account. This allows you to experiment and make changes freely without affecting the original repository. Forks are typically used when you want to contribute to a project but don't have write access to the original repository.
@@ -15,6 +16,7 @@ Forking is the process of creating a personal copy of someone else’s repositor
 - It copies the repository to your GitHub account.
 - You can freely make changes without affecting the original repository.
 - Typically used to propose changes via pull requests.
+![The image describes the workflow of forking a repo](images/forkworkflow.png)
 
 ## Differences
 
