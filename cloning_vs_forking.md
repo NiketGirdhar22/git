@@ -28,4 +28,4 @@ Forking is the process of creating a personal copy of someone else’s repositor
 | **Push changes** | Can push changes to original repo if allowed | Can push changes to forked repo |
 | **Main action** | Copy and work locally | Copy to GitHub and propose changes |
 | **Git Command** | `git clone <repository_url>` | Fork on GitHub, then `git clone <your_fork_url>` |
-| **Where done?** | Locally on your machine | Done on GitHub interface |
+| **Where done?** | Locally on your machine | Done on GitHub interface |  
