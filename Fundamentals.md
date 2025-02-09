@@ -69,6 +69,8 @@ Github is a web service that provides easy to use git functionality. It is the m
 
 - **Clone Repo:** Cloning a repo creates a copy of a remote git repo into the local system.
 
+- **Upstream:** A term used by developers to refer to the original source where the local copy was cloned from.
+
 ---
 
 ## Why is Git Repository Model special?
